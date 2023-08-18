@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WithusUI.Configs;
 
 namespace Client
 {
@@ -14,7 +15,7 @@ namespace Client
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
     }
 }

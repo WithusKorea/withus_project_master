@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WithusUI\WithusUI.csproj">
+      <Project>{2e7d9c8a-e4f2-4483-a610-3bba400928a7}</Project>
+      <Name>WithusUI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
